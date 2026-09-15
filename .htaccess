@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+#Force www:
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^cityhelp.in [NC]
+RewriteRule ^(.*)$ http://www.cityhelp.in/$1 [L,R=301,NC]
+
+

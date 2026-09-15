@@ -1,0 +1,36 @@
+<?php
+$websiteurl="https://www.navtaaraindia.com";
+$websitetitle="Navtaara - Long-Stay Living | Life Transitions | Conscious Travel | India";
+$emailid1="info@navtaaraindia.com";
+$emailid2="sales@navtaaraindia.com";
+$phonenum1="+91 7217297111";
+$phonenum2="+91 7217297111";
+$whatsappnumber="+917217297111";
+$topaddress="Uttrakhand";
+$coreaddress="Dehradun, Uttrakhand - 248001";
+$coreaddress2="#";
+#$coreaddress3="Gate No. 255 A, Plot No. 41, Jotiba Nagar, Talawade, Pune - 411026";
+$workinghours="Mon - Fri : 9AM - 6PM";
+$facebookurl="#";
+$twitterurl="#";
+$instagramurl="#";
+$youtubeurl="#";
+$linkedinurl="#";
+$whatsapp="+917906453354";
+$googlemaplink="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220409.6832235383!2d77.85232418505264!3d30.325325143216006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390929c356c888af%3A0x4c3562c032518799!2sDehradun%2C%20Uttarakhand!5e0!3m2!1sen!2sin!4v1771491619546!5m2!1sen!2sin";
+$webname="Navtaara";
+$domainname="www.navtaaraindia.com";
+$billinemail="#";
+$headerlogo="images/Navtara-Logo-hd_2.png"; 
+$headerlogo2="assets/images/logo2.png";
+$footerlogo="images/Navtara-Logo-hd_2.png";
+$favicon="images/favicon.png";
+$cityname="Uttrakhand";
+$foundername="Mr. Sourav";
+$seodescription="";
+$seokeywords="";
+$currentyear=date('Y',time());
+$nextyear=$currentyear+1;
+$youtubevideolink="https://youtu.be/bvSryj_1Duc";
+$companybrief="Navtaara is a premium village-based slow living space designed for mentally exhausted individuals. We offer a calm, pressure-free environment where guests disconnect from modern noise and gently restore their natural rhythm of life.";
+?>
