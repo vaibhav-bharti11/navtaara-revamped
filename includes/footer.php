@@ -43,6 +43,7 @@
 				<div class="footer-links">
 					<h3>Our Offerings</h3>
 					<ul>
+						<li><i class="fa fa-angle-right"></i> <a href="upcoming-experiences">Upcoming Experiences (Antar Yatra)</a></li>
 						<li><i class="fa fa-angle-right"></i> <a href="extended-stay-living-programs">Extended Stay Living Programs</a></li>
 						<li><i class="fa fa-angle-right"></i> <a href="life-transition-sabbatical-experiences">Life Transition & Sabbatical Experiences</a></li>
 						<li><i class="fa fa-angle-right"></i> <a href="nature-based-immersive-environments">Nature-Based Immersive Environments</a></li>
@@ -104,19 +105,56 @@
 		</div>
 	</div>
 </footer>
-<!-- GetButton.io widget -->
+<!-- WhatsApp / GetButton.io widget with automatic page context -->
+<?php
+    $cur_page_name = basename($_SERVER['PHP_SELF'], ".php");
+    $is_antar_page = ($cur_page_name == "upcoming-experiences" || $cur_page_name == "antar-yatra" || (isset($servicename) && stripos($servicename, "Antar Yatra") !== false));
+    $wa_default_msg = $is_antar_page 
+        ? "Hi Navtaara team, I am interested in the Antar Yatra Retreat in Uttarakhand. Please share the details and upcoming cohort dates." 
+        : "Hi Navtaara team, I would like to know more about Navtaara retreats.";
+    $wa_encoded_msg = urlencode($wa_default_msg);
+?>
 <script type="text/javascript">
     (function () {
+        var isAntar = <?php echo $is_antar_page ? 'true' : 'false'; ?>;
+        var waPhone = "917217297111";
+        var waMsg = "<?php echo addslashes($wa_default_msg); ?>";
+        var targetWaUrl = "https://api.whatsapp.com/send?phone=" + waPhone + "&text=" + encodeURIComponent(waMsg);
+
         var options = {
-            whatsapp: "<?php echo $whatsappnumber; ?>", // WhatsApp number
-            call_to_action: "Message us", // Call to action
-            button_color: "#FF6550", // Color of button
-            position: "left", // Position may be 'right' or 'left'
+            whatsapp: waPhone,
+            call_to_action: isAntar ? "Inquire Antar Yatra" : "Message us",
+            button_color: "#25d366",
+            position: "left",
         };
         var proto = 'https:', host = "getbutton.io", url = proto + '//static.' + host;
         var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        s.onload = function () { 
+            if (typeof WhWidgetSendButton !== 'undefined') {
+                WhWidgetSendButton.init(host, proto, options); 
+            }
+            var pollCount = 0;
+            var interval = setInterval(function() {
+                pollCount++;
+                var anchors = document.querySelectorAll('a[href*="whatsapp.com"], a[href*="wa.me"], .wh-widget-send-button-desktop, .wh-widget-send-button-mobile');
+                anchors.forEach(function(a) {
+                    a.setAttribute('href', targetWaUrl);
+                    a.setAttribute('target', '_blank');
+                    a.setAttribute('rel', 'noopener noreferrer');
+                });
+                if (anchors.length > 0 || pollCount > 20) {
+                    clearInterval(interval);
+                }
+            }, 250);
+        };
         var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+
+        document.addEventListener('click', function(e) {
+            var btn = e.target.closest('a[href*="whatsapp.com"], a[href*="wa.me"], .wh-widget-send-button-desktop, .wh-widget-send-button-mobile, .wh-widget-button');
+            if (btn) {
+                btn.setAttribute('href', targetWaUrl);
+            }
+        }, true);
     })();
 </script>
-<!-- /GetButton.io widget -->
+<!-- /WhatsApp widget -->

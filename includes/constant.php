@@ -1,5 +1,6 @@
 <?php
-$websiteurl="https://www.navtaaraindia.com";
+$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || (isset($_SERVER['SERVER_PORT']) && $_SERVER['SERVER_PORT'] == 443)) ? "https://" : "http://";
+$websiteurl = (isset($_SERVER['HTTP_HOST'])) ? ($protocol . $_SERVER['HTTP_HOST']) : "https://www.navtaaraindia.com";
 $websitetitle="Navtaara - Long-Stay Living | Life Transitions | Conscious Travel | India";
 $emailid1="info@navtaaraindia.com";
 $emailid2="sales@navtaaraindia.com";
@@ -13,7 +14,7 @@ $coreaddress2="#";
 $workinghours="Mon - Fri : 9AM - 6PM";
 $facebookurl="#";
 $twitterurl="#";
-$instagramurl="#";
+$instagramurl="https://www.instagram.com/navtaaraindia?stkn=aGt2eG1sdDNsanNi";
 $youtubeurl="#";
 $linkedinurl="#";
 $whatsapp="+917906453354";
@@ -21,9 +22,9 @@ $googlemaplink="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220409.683
 $webname="Navtaara";
 $domainname="www.navtaaraindia.com";
 $billinemail="#";
-$headerlogo="images/Navtara-Logo-hd_2.png"; 
-$headerlogo2="assets/images/logo2.png";
-$footerlogo="images/Navtara-Logo-hd_2.png";
+$headerlogo="images/navtaara-logo-light.png"; 
+$headerlogo2="images/navtaara-logo-dark.png";
+$footerlogo="images/navtaara-logo-light.png";
 $favicon="images/favicon.png";
 $cityname="Uttrakhand";
 $foundername="Mr. Sourav";

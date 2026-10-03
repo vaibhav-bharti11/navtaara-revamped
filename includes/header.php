@@ -4,7 +4,7 @@
 <div class="preloader">
 	<div class="loading-container">
 		<div class="loading"></div>
-		<div id="loading-icon"><img src="images/loader.svg" alt="" /></div>
+		<div id="loading-icon"><img src="images/loader.png" alt="<?php echo $webname; ?>" /></div>
 	</div>
 </div>
 <header class="main-header">
@@ -20,6 +20,7 @@
 							<li class="nav-item submenu">
 								<a class="nav-link" href="#">What We Offer</a>
 								<ul>
+									<li class="nav-item"><a class="nav-link" href="upcoming-experiences">Upcoming Experiences (Antar Yatra)</a></li>
 									<li class="nav-item"><a class="nav-link" href="extended-stay-living-programs">Extended Stay Living Programs</a></li>
 									<li class="nav-item"><a class="nav-link" href="life-transition-sabbatical-experiences">Life Transition & Sabbatical Experiences</a></li>
 									<li class="nav-item"><a class="nav-link" href="nature-based-immersive-environments">Nature-Based Immersive Environments</a></li>

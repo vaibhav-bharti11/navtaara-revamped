@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <radialGradient id="hamsa-glow" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#e8d5a7" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#c4a769" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#b99a5b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="32" cy="32" r="28" fill="url(#hamsa-glow)"/>
+  <g>
+    <circle cx="14.00" cy="26.00" r="1.1" fill="#c4a769"/>
+    <circle cx="14.88" cy="20.44" r="1.1" fill="#c4a769"/>
+    <circle cx="17.44" cy="15.42" r="1.1" fill="#c4a769"/>
+    <circle cx="21.42" cy="11.44" r="1.1" fill="#c4a769"/>
+    <circle cx="26.44" cy="8.88" r="1.1" fill="#c4a769"/>
+    <circle cx="32.00" cy="8.00" r="1.1" fill="#c4a769"/>
+    <circle cx="37.56" cy="8.88" r="1.1" fill="#c4a769"/>
+    <circle cx="42.58" cy="11.44" r="1.1" fill="#c4a769"/>
+    <circle cx="46.56" cy="15.42" r="1.1" fill="#c4a769"/>
+    <circle cx="49.12" cy="20.44" r="1.1" fill="#c4a769"/>
+    <circle cx="50.00" cy="26.00" r="1.1" fill="#c4a769"/>
+  </g>
+  <!-- Swan Head, Beak, Eye & S-Neck -->
+  <path d="M35,22 Q37,18 34,16 Q31,14 28,18 Q25,22 28,30 Q30,36 32,41" fill="none" stroke="#b99a5b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M35,18 L39,20 L35,21" fill="#b99a5b"/>
+  <circle cx="32.5" cy="18" r="1" fill="#1b402f"/>
+  
+  <!-- Left Wing Feathers -->
+  <path d="M28,35 Q19,25 15,28 Q18,36 28,40" fill="none" stroke="#b99a5b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M26,38 Q16,33 14,37 Q18,43 27,43" fill="none" stroke="#b99a5b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M26,42 Q18,42 16,46 Q22,48 29,45" fill="none" stroke="#b99a5b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Right Wing Feathers -->
+  <path d="M34,35 Q43,26 48,30 Q44,38 35,41" fill="none" stroke="#b99a5b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M35,39 Q45,36 47,41 Q42,45 34,44" fill="none" stroke="#b99a5b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Water lines below -->
+  <line x1="16" y1="49" x2="48" y2="49" stroke="#c4a769" stroke-width="2" stroke-linecap="round"/>
+  <line x1="21" y1="53" x2="43" y2="53" stroke="#c4a769" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="25" y1="57" x2="39" y2="57" stroke="#c4a769" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="29" y1="61" x2="35" y2="61" stroke="#c4a769" stroke-width="1.3" stroke-linecap="round"/>
+</svg>

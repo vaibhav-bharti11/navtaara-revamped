@@ -35,7 +35,7 @@
                     <div class="col-lg-6">
                         <div class="hero-content">
                             <div class="section-title">
-                                <h3 class="wow fadeInUp">Quiet Village Living</h3>
+                                <h3 class="wow fadeInUp">Redefining Luxury</h3>
                                 <h1 class="text-anime-style-2" data-cursor="-opaque">
                                     Slow down. Breathe. Live naturally again.
                                 </h1>
@@ -48,8 +48,8 @@
                                     <a href="#" class="btn-default">join us today</a>
                                 </div>
                                 <div class="video-play-button">
-                                    <p>Watch Video</p>
-                                    <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video" data-cursor-text="Play" ><i class="fa-solid fa-play"></i></a>
+                                    <p>Instagram</p>
+                                    <a href="<?php echo $instagramurl; ?>" target="_blank" data-cursor-text="Instagram"><i class="fa-brands fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -127,56 +127,56 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="service-item wow fadeInUp">
                             <div class="service-header">
-                                <div class="icon-box"><img src="images/service-1.png" alt="Extended Stay Living Programs" /></div>
+                                <div class="icon-box"><img src="images/retreat-icon-1.png" alt="Antar Yatra — The Inward Journey" /></div>
                                 <div class="service-btn">
-                                    <a href="#"><img src="images/arrow-white.svg" alt="Extended Stay Living Programs" /></a>
+                                    <a href="upcoming-experiences"><img src="images/arrow-white.svg" alt="Antar Yatra — The Inward Journey" /></a>
                                 </div>
                             </div>
                             <div class="service-content">
-                                <h3><a href="#">Extended Stay Living Programs</a></h3>
-                                <p>Premium long-duration stays designed for deep renewal.</p>
+                                <h3><a href="upcoming-experiences">Antar Yatra — The Inward Journey</a></h3>
+                                <p>A 3-day Himalayan retreat in Uttarakhand designed for presence, clarity & deep renewal.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="service-item wow fadeInUp" data-wow-delay="0.2s">
                             <div class="service-header">
-                                <div class="icon-box"><img src="images/service-2.png" alt="Life Transition & Sabbatical Experiences" /></div>
+                                <div class="icon-box"><img src="images/service-1.png" alt="Extended Stay Living Programs" /></div>
                                 <div class="service-btn">
-                                    <a href="#"><img src="images/arrow-white.svg" alt="Life Transition & Sabbatical Experiences" /></a>
+                                    <a href="extended-stay-living-programs"><img src="images/arrow-white.svg" alt="Extended Stay Living Programs" /></a>
                                 </div>
                             </div>
                             <div class="service-content">
-                                <h3><a href="#">Life Transition & Sabbatical Experiences</a></h3>
-                                <p>Intentional retreats supporting clarity during major life transitions.</p>
+                                <h3><a href="extended-stay-living-programs">Extended Stay Living Programs</a></h3>
+                                <p>Premium long-duration stays designed for deep renewal.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="service-item wow fadeInUp" data-wow-delay="0.4s">
                             <div class="service-header">
-                                <div class="icon-box"><img src="images/service-3.png" alt="Nature-Based Immersive Environments" /></div>
+                                <div class="icon-box"><img src="images/service-2.png" alt="Life Transition & Sabbatical Experiences" /></div>
                                 <div class="service-btn">
-                                    <a href="#"><img src="images/arrow-white.svg" alt="Nature-Based Immersive Environments" /></a>
+                                    <a href="life-transition-sabbatical-experiences"><img src="images/arrow-white.svg" alt="Life Transition & Sabbatical Experiences" /></a>
                                 </div>
                             </div>
                             <div class="service-content">
-                                <h3><a href="#">Nature-Based Immersive Environments</a></h3>
-                                <p>Carefully selected natural settings fostering calm and reflection.</p>
+                                <h3><a href="life-transition-sabbatical-experiences">Life Transition & Sabbatical Experiences</a></h3>
+                                <p>Intentional retreats supporting clarity during major life transitions.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="service-item wow fadeInUp" data-wow-delay="0.6s">
                             <div class="service-header">
-                                <div class="icon-box"><img src="images/service-5.png" alt="Curated Property Partnerships Across" /></div>
+                                <div class="icon-box"><img src="images/service-3.png" alt="Nature-Based Immersive Environments" /></div>
                                 <div class="service-btn">
-                                    <a href="#"><img src="images/arrow-white.svg" alt="Curated Property Partnerships Across" /></a>
+                                    <a href="nature-based-immersive-environments"><img src="images/arrow-white.svg" alt="Nature-Based Immersive Environments" /></a>
                                 </div>
                             </div>
                             <div class="service-content">
-                                <h3><a href="#">Curated Property Partnerships Across </a></h3>
-                                <p>Premium partner properties ensuring comfort, safety, authenticity.</p>
+                                <h3><a href="nature-based-immersive-environments">Nature-Based Immersive Environments</a></h3>
+                                <p>Carefully selected natural settings fostering calm and reflection.</p>
                             </div>
                         </div>
                     </div>
@@ -304,37 +304,6 @@
                                     <h3>Farm Living</h3>
                                     <p>Spend time in natural farm environments, observing seasonal cycles and village practices that encourage grounding, simplicity, and appreciation for nature.</p>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="why-choose-counter-box">
-                            <div class="why-choose-counter-item">
-                                <div class="icon-box"><img src="images/icon-why-choose-counter-1.svg" alt="" /></div>
-                                <div class="why-choose-counter-content">
-                                    <h3><span class="counter">5</span>+</h3>
-                                    <p>Years Of Experience</p>
-                                </div>
-                            </div>
-                            <div class="why-choose-counter-item">
-                                <div class="icon-box"><img src="images/icon-why-choose-counter-2.svg" alt="" /></div>
-                                <div class="why-choose-counter-content">
-                                    <h3><span class="counter">2</span>K+</h3>
-                                    <p>Satisfied clients</p>
-                                </div>
-                            </div>
-                            <div class="why-choose-counter-item">
-                                <div class="icon-box"><img src="images/icon-why-choose-counter-3.svg" alt="" /></div>
-                                <div class="why-choose-counter-content">
-                                    <h3><span class="counter">4</span>+</h3>
-                                    <p>Countries Reached</p>
-                                </div>
-                            </div>
-                            <div class="why-choose-counter-item">
-                                <div class="icon-box"><img src="images/icon-why-choose-counter-4.svg" alt="" /></div>
-                                <div class="why-choose-counter-content">
-                                    <h3><span class="counter">2</span>K+</h3>
-                                    <p>Classes Conducted</p>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -451,48 +420,191 @@
                 </div>
             </div>
         </div>
-        <div class="how-it-work">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="how-work-content">
-                            <div class="section-title">
-                                <h3 class="wow fadeInUp">how it work</h3>
-                                <h2 class="text-anime-style-2" data-cursor="-opaque">
-                                    How Navtaara Guides Your <span>Journey Toward Renewal</span> and Clarity
-                                </h2>
-                            </div>
-                            <div class="how-work-stpes-box">
-                                <div class="how-work-step wow fadeInUp" data-wow-delay="0.2s">
-                                    <div class="how-work-step-no"><h2>01</h2></div>
-                                    <div class="how-work-step-content">
-                                        <h3>Apply & Align</h3>
-                                        <p>Begin with a thoughtful consultation where we understand your current life phase, mental state, and intentions, ensuring Navtaara is the right environment for you.</p>
-                                    </div>
-                                </div>
-                                <div class="how-work-step wow fadeInUp" data-wow-delay="0.4s">
-                                    <div class="how-work-step-no"><h2>02</h2></div>
-                                    <div class="how-work-step-content">
-                                        <h3>Arrive & Disconnect</h3>
-                                        <p>Step into a carefully curated natural setting designed for extended stays, where noise, urgency, and digital overload reduce, allowing your nervous system to gradually settle.</p>
-                                    </div>
-                                </div>
-                                <div class="how-work-step wow fadeInUp" data-wow-delay="0.6s">
-                                    <div class="how-work-step-no"><h2>03</h2></div>
-                                    <div class="how-work-step-content">
-                                        <h3>Reset & Renew</h3>
-                                        <p>Through structured slow living, cultural depth, and intentional daily rhythms, you regain clarity, emotional balance, and renewed direction for your next life chapter.</p>
-                                    </div>
-                                </div>
-                            </div>
+        <!-- Forest Revealing Full-Viewport Scroll Sequence (4 Interactive Stages) -->
+        <div class="forest-scroll-wrapper" id="forestScrollContainer">
+            <div class="forest-sticky-stage">
+                <!-- Canvas Video Frames & Seamless Cross-Fade -->
+                <canvas id="forestCanvas" class="forest-canvas"></canvas>
+
+                <!-- Soft Ambient Overlay & Edge Feathers -->
+                <div class="forest-ambient-overlay"></div>
+                <div class="forest-feather-top"></div>
+                <div class="forest-feather-bottom"></div>
+
+                <!-- Scroll-Driven Animated Clouds -->
+                <div class="forest-clouds-layer">
+                    <div class="forest-cloud-blob forest-cloud-1" id="forestCloud1"></div>
+                    <div class="forest-cloud-blob forest-cloud-2" id="forestCloud2"></div>
+                    <div class="forest-cloud-blob forest-cloud-3" id="forestCloud3"></div>
+                </div>
+
+                <!-- Scroll Down Cinematic Experience Indicator -->
+                <div class="forest-scroll-indicator" id="forestScrollIndicator">
+                    <div class="forest-scroll-indicator-inner">
+                        <div class="forest-mouse-icon">
+                            <span class="forest-mouse-wheel"></span>
                         </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="how-work-image">
-                            <figure><img src="images/how-it-works-navtaara.png" alt="How It Works" /></figure>
+                        <span class="forest-scroll-text">Scroll down for cinematic experience</span>
+                        <div class="forest-scroll-arrows">
+                            <i class="fa-solid fa-chevron-down"></i>
                         </div>
                     </div>
                 </div>
+
+                <!-- Stage 1: Foundation, Elevation & Intention -->
+                <div class="forest-stage-container" id="forestStage1" style="opacity: 0;">
+                    <div class="forest-stage-inner text-center">
+                        <div class="forest-badge-pill">
+                            <svg viewBox="0 0 64 64" width="18" height="18" fill="none" stroke="currentColor" stroke-linecap="round" style="color: #b99a5b; filter: drop-shadow(0 0 2px rgba(255,250,235,0.9)) drop-shadow(0 0 6px rgba(217,169,79,0.85));">
+                                <path d="M32,34 L32,14" stroke-width="2.2" />
+                                <path d="M32,34 Q24,30 23,22 Q22.4,17 25,13" stroke-width="2.2" />
+                                <path d="M32,34 Q40,30 41,22 Q41.6,17 39,13" stroke-width="2.2" />
+                                <path d="M32,34 L32,54" stroke-width="2.4" />
+                                <line x1="22" y1="42" x2="42" y2="42" stroke-width="2" />
+                                <circle cx="32" cy="12" r="1.8" fill="currentColor" />
+                                <circle cx="25" cy="11.5" r="1.5" fill="currentColor" />
+                                <circle cx="39" cy="11.5" r="1.5" fill="currentColor" />
+                            </svg>
+                            <span>Foundation, Elevation &amp; Intention</span>
+                        </div>
+                        <h2 class="forest-stage-1-title">
+                            Navtaara is not one place, but a practice — found for you, wherever your stillness calls you.
+                        </h2>
+                        <div class="forest-bento-grid">
+                            <div class="forest-bento-card">
+                                <h3>Foundation</h3>
+                                <p>The essentials handled before you arrive: the right property, practitioner, and pace.</p>
+                            </div>
+                            <div class="forest-bento-card">
+                                <h3>Elevation</h3>
+                                <p>Deepen it, if you want to. Additional sessions, extended time, layered modalities.</p>
+                            </div>
+                            <div class="forest-bento-card">
+                                <h3>Intention</h3>
+                                <p>Tell us what you're stepping away from. We build around that answer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stage 2: The Circle -->
+                <div class="forest-stage-container" id="forestStage2" style="opacity: 0;">
+                    <div class="forest-stage-inner text-center forest-stage-2-content">
+                        <div class="forest-badge-pill forest-badge-gold">
+                            <span>The Circle</span>
+                        </div>
+                        <h2 class="forest-stage-2-title">
+                            We don't own these places. We chose them.
+                        </h2>
+                        <p class="forest-stage-2-desc">
+                            A circle of partner properties across India, each visited and vetted directly — for silence, for light, for a stillness that can't be staged for a photograph. The circle grows slowly, on purpose.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Stage 3: Who Guides You (Knowledge Library) -->
+                <div class="forest-stage-container" id="forestStage3" style="opacity: 0;">
+                    <div class="forest-stage-inner">
+                        <div class="forest-knowledge-card">
+                            <div class="forest-knowledge-grid">
+                                <div class="forest-knowledge-left">
+                                    <div class="forest-badge-pill" style="margin-bottom: 14px;">
+                                        <i class="fa-solid fa-sparkles" style="color: #b99a5b; font-size: 12px;"></i>
+                                        <span>Who Guides You — Lineage &amp; Stillness</span>
+                                    </div>
+                                    <h2 class="forest-knowledge-title">
+                                        The practitioner <span class="italic">matters more</span> than the property.
+                                    </h2>
+                                    <p class="forest-knowledge-desc">
+                                        Every modality is led by someone we've vetted personally — their training, their years of practice, the tradition they were taught in, paired with scientific research &amp; retreat toolkits.
+                                    </p>
+                                    <div>
+                                        <a href="about-us" class="forest-animated-line-link">
+                                            <span class="line-bar"></span>
+                                            <span>Explore Practitioner Guides &rarr;</span>
+                                        </a>
+                                    </div>
+                                    <div class="forest-toolkits-section">
+                                        <div class="forest-toolkits-title">Retreat &amp; Practice Toolkits</div>
+                                        <a href="extended-stay-living-programs" class="forest-toolkit-item">
+                                            <div>
+                                                <div class="forest-toolkit-name">Personal Modality Planner</div>
+                                                <span class="forest-toolkit-meta">Interactive Self-Check • 5 min</span>
+                                            </div>
+                                            <div class="forest-toolkit-icon"><i class="fa-solid fa-arrow-right"></i></div>
+                                        </a>
+                                        <a href="about-us" class="forest-toolkit-item">
+                                            <div>
+                                                <div class="forest-toolkit-name">Bio-Individual Nadi &amp; Sound Guide</div>
+                                                <span class="forest-toolkit-meta">Research Paper • PDF Download</span>
+                                            </div>
+                                            <div class="forest-toolkit-icon"><i class="fa-solid fa-download"></i></div>
+                                        </a>
+                                        <a href="upcoming-experiences" class="forest-toolkit-item">
+                                            <div>
+                                                <div class="forest-toolkit-name">Upcoming Experiences (Antar Yatra)</div>
+                                                <span class="forest-toolkit-meta">Seasonal Uttarakhand Departures</span>
+                                            </div>
+                                            <div class="forest-toolkit-icon"><i class="fa-solid fa-calendar"></i></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="forest-knowledge-right">
+                                    <div class="forest-gallery-stack">
+                                        <img src="images/practitioner_sanctuary_base.png" alt="Sanctuary Garden" class="forest-gallery-main" />
+                                        <img src="images/practitioner_guidance_overlap.png" alt="Guidance Session" class="forest-gallery-sub-1" />
+                                        <img src="images/incense_accent_small.png" alt="Incense Detail" class="forest-gallery-sub-2" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stage 4: The Process -->
+                <div class="forest-stage-container" id="forestStage4" style="opacity: 0;">
+                    <div class="forest-stage-inner text-center forest-stage-4-content">
+                        <div class="forest-badge-pill">
+                            <svg viewBox="0 0 64 64" width="18" height="18" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" style="color: #b99a5b; filter: drop-shadow(0 0 2px rgba(255,250,235,0.9)) drop-shadow(0 0 6px rgba(217,169,79,0.85));">
+                                <path d="M32,12 Q40,26 38,40 Q36,50 32,55 Q28,50 26,40 Q24,26 32,12 Z" stroke-width="1.8" />
+                                <path d="M32,15 L32,53" stroke-width="1.4" />
+                                <line x1="31" y1="21" x2="26.5" y2="18.5" stroke-width="1.3" />
+                                <line x1="33" y1="21" x2="37.5" y2="18.5" stroke-width="1.3" />
+                                <line x1="31" y1="27" x2="25" y2="24.5" stroke-width="1.3" />
+                                <line x1="33" y1="27" x2="39" y2="24.5" stroke-width="1.3" />
+                                <line x1="31" y1="33" x2="24.3" y2="31" stroke-width="1.3" />
+                                <line x1="33" y1="33" x2="39.7" y2="31" stroke-width="1.3" />
+                                <circle cx="32" cy="12" r="1.8" fill="currentColor" />
+                            </svg>
+                            <span>The Process</span>
+                        </div>
+                        <h2 class="forest-stage-4-title">How this begins.</h2>
+                        <div class="forest-steps-stack">
+                            <div class="forest-step-card" id="forestStep1" style="opacity: 0;">
+                                <div class="forest-step-header">
+                                    <span class="forest-step-num">01</span>
+                                    <h3>Apply &amp; Align</h3>
+                                </div>
+                                <p>A short conversation, not a form. We learn what you're stepping away from before we decide where you should step.</p>
+                            </div>
+                            <div class="forest-step-card" id="forestStep2" style="opacity: 0;">
+                                <div class="forest-step-header">
+                                    <span class="forest-step-num">02</span>
+                                    <h3>Arrive &amp; Disconnect</h3>
+                                </div>
+                                <p>No welcome packet, no schedule. Just the space, and permission to do nothing with it.</p>
+                            </div>
+                            <div class="forest-step-card" id="forestStep3" style="opacity: 0;">
+                                <div class="forest-step-header">
+                                    <span class="forest-step-num">03</span>
+                                    <h3>Reset &amp; Renew</h3>
+                                </div>
+                                <p>Quieter than dramatic. That's usually why it lasts long after you return.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
         <!--<div class="our-features">
@@ -606,91 +718,94 @@
         <div class="our-testimonials">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-6">
+                    <div class="col-lg-5">
                         <div class="testimonial-image-content">
                             <div class="testimonial-image">
                                 <figure class="image-anime reveal">
-                                    <img src="images/testimonial-image.jpg" alt="" />
+                                    <img src="images/testimonial-image.jpg" alt="<?php echo $webname; ?>" />
                                 </figure>
                             </div>
                             <div class="testimonial-review-box wow fadeInUp">
                                 <div class="testimonial-review-header">
-                                    <div class="testimonial-review-title"><h3>Book A Free Consultation!</h3></div>
+                                    <div class="testimonial-review-title"><h3>Private Stay Consultation</h3></div>
                                     <div class="testimonial-review-counter">
-                                        <span>2K+</span>
-                                        <p>Worldwide Client</p>
+                                        <span>Curated Cohorts</span>
                                     </div>
                                 </div>
                                 <div class="testimonial-review-body">
                                     <div class="testimonial-review-content">
                                         <p>
-                                            Schedule a free consultation to explore whether Quiet Living Concept is right for you. We’ll understand your needs, answer questions, and guide you toward a calm, restorative stay.
+                                            Every Navtaara journey begins with an unhurried conversation to understand what you are stepping away from and match you with the right sanctuary.
                                         </p>
                                     </div>
                                     <div class="testimonial-review-btn">
-                                        <a href="contact.html"><img src="images/arrow-white.svg" alt="" /></a>
+                                        <a href="contact-us"><img src="images/arrow-white.svg" alt="" /></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-7">
                         <div class="our-testimonial-content">
                             <div class="section-title">
-                                <h3 class="wow fadeInUp">testimonials</h3>
+                                <h3 class="wow fadeInUp">Guest Reflections</h3>
                                 <h2 class="text-anime-style-2" data-cursor="-opaque">
-                                   <span>Real experiences</span> from those who chose stillness
+                                   <span>Real reflections</span> from those who chose stillness
                                 </h2>
                             </div>
                             <div class="our-testimonial-box">
+                                <!-- Reflection 1 -->
                                 <div class="testimonial-item wow fadeInUp" data-wow-delay="0.2s">
                                     <div class="testimonial-author">
-                                        <div class="author-image">
-                                            <figure class="image-anime">
-                                                <img src="images/scrolling-ticker-image-1.jpg" alt="" />
-                                            </figure>
+                                        <div class="author-profile-group">
+                                            <div class="author-monogram">AM</div>
+                                            <div class="author-content">
+                                                <h3>Aarav Mehta</h3>
+                                                <p>Founder &amp; Angel Investor • Bengaluru</p>
+                                            </div>
                                         </div>
-                                        <div class="author-content">
-                                            <h3>Michael R.</h3>
-                                            <p>California, USA</p>
-                                        </div>
+                                        <span class="testimonial-stay-badge"><i class="fa-solid fa-circle-check"></i> 14-Day Sabbatical</span>
                                     </div>
                                     <div class="testimonial-item-content">
                                         <p>
-                                            "I arrived mentally exhausted from nonstop business pressure. Living slowly here helped me sleep deeply, think clearly, and finally experience calm without guilt or expectation."
+                                            In tech leadership, uninterrupted silence is essentially nonexistent. Navtaara gave me two full weeks without an inbox, an agenda, or artificial urgency. My sleep latency dropped from 45 minutes to falling asleep within 5, and the chronic cognitive fog that built up over seven years lifted naturally.
                                         </p>
-                                    </div>
-                                    <div class="testimonial-rating">
-                                        <i class="fa-solid fa-star"></i>
-										<i class="fa-solid fa-star"></i>
-										<i class="fa-solid fa-star"></i>
-										<i class="fa-solid fa-star"></i>
-										<i class="fa-solid fa-star"></i>
                                     </div>
                                 </div>
-                                <div class="testimonial-item wow fadeInUp" data-wow-delay="0.4s">
+                                <!-- Reflection 2 -->
+                                <div class="testimonial-item wow fadeInUp" data-wow-delay="0.3s">
                                     <div class="testimonial-author">
-                                        <div class="author-image">
-                                            <figure class="image-anime">
-                                                <img src="images/scrolling-ticker-image-2.jpg" alt="" />
-                                            </figure>
+                                        <div class="author-profile-group">
+                                            <div class="author-monogram">ER</div>
+                                            <div class="author-content">
+                                                <h3>Dr. Elena Rostova</h3>
+                                                <p>Neuroscience Researcher &amp; Author • Zurich</p>
+                                            </div>
                                         </div>
-                                        <div class="author-content">
-                                            <h3>Sarah L.</h3>
-                                            <p>New York, USA</p>
-                                        </div>
+                                        <span class="testimonial-stay-badge"><i class="fa-solid fa-circle-check"></i> Nature Immersion</span>
                                     </div>
                                     <div class="testimonial-item-content">
                                         <p>
-                                            "After years of corporate stress, this quiet village stay allowed me to disconnect completely. The simplicity, nature, and unstructured days restored my emotional balance and focus."
+                                            The absence of programmatic pressure is what makes Navtaara genuinely rare. You aren't hurried through scheduled wellness regimens; the village rhythms, honest organic meals, and vetted lineage practitioners gently de-escalate your nervous system.
                                         </p>
                                     </div>
-                                    <div class="testimonial-rating">
-                                        <i class="fa-solid fa-star"></i>
-										<i class="fa-solid fa-star"></i>
-										<i class="fa-solid fa-star"></i>
-										<i class="fa-solid fa-star"></i>
-										<i class="fa-solid fa-star"></i>
+                                </div>
+                                <!-- Reflection 3 -->
+                                <div class="testimonial-item wow fadeInUp" data-wow-delay="0.4s">
+                                    <div class="testimonial-author">
+                                        <div class="author-profile-group">
+                                            <div class="author-monogram">DS</div>
+                                            <div class="author-content">
+                                                <h3>Devika Singhania</h3>
+                                                <p>Architecture &amp; Design Principal • Mumbai</p>
+                                            </div>
+                                        </div>
+                                        <span class="testimonial-stay-badge"><i class="fa-solid fa-circle-check"></i> Extended Stay Living</span>
+                                    </div>
+                                    <div class="testimonial-item-content">
+                                        <p>
+                                            I was skeptical of 'slow living' claims until the third evening. The silence here is physical, deep, and grounding. Unhurried orchard walks and genuine quiet restored my creative focus and emotional equilibrium far more than any conventional commercial retreat.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -831,5 +946,6 @@
         <script src="js/jquery.mb.YTPlayer.min.js"></script>
         <script src="js/wow.min.js"></script>
         <script src="js/function.js"></script>
+        <script src="js/forest-scroll-sequence.js"></script>
     </body>
 </html>

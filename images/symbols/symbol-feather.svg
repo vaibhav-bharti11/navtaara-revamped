@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <radialGradient id="feather-glow" cx="50%" cy="42%" r="50%">
+      <stop offset="0%" stop-color="#e8d5a7" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#c4a769" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#b99a5b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="32" cy="32" r="28" fill="url(#feather-glow)"/>
+  
+  <!-- Top floating bindu -->
+  <circle cx="32" cy="7.5" r="2.4" fill="#c4a769"/>
+  
+  <!-- Feather Outer Leaf/Vane Contour -->
+  <path d="M32,13 Q41,27 39,43 Q37,53 32,57 Q27,53 25,43 Q23,27 32,13 Z" fill="none" stroke="#b99a5b" stroke-width="1.8" stroke-linejoin="round"/>
+  
+  <!-- Center Spine / Shaft -->
+  <line x1="32" y1="14" x2="32" y2="58" stroke="#b99a5b" stroke-width="1.6" stroke-linecap="round"/>
+  <circle cx="32" cy="22" r="2" fill="#c4a769"/>
+  
+  <!-- Inner Barbs -->
+  <g>
+    <line x1="31" y1="23" x2="26" y2="20" stroke="#b99a5b" stroke-width="1.4" stroke-linecap="round"/>
+    <line x1="33" y1="23" x2="38" y2="20" stroke="#b99a5b" stroke-width="1.4" stroke-linecap="round"/>
+    <line x1="31" y1="30" x2="24" y2="27" stroke="#b99a5b" stroke-width="1.4" stroke-linecap="round"/>
+    <line x1="33" y1="30" x2="40" y2="27" stroke="#b99a5b" stroke-width="1.4" stroke-linecap="round"/>
+    <line x1="31" y1="37" x2="24" y2="34" stroke="#b99a5b" stroke-width="1.4" stroke-linecap="round"/>
+    <line x1="33" y1="37" x2="40" y2="34" stroke="#b99a5b" stroke-width="1.4" stroke-linecap="round"/>
+    <line x1="31" y1="44" x2="25" y2="41" stroke="#b99a5b" stroke-width="1.4" stroke-linecap="round"/>
+    <line x1="33" y1="44" x2="39" y2="41" stroke="#b99a5b" stroke-width="1.4" stroke-linecap="round"/>
+    <line x1="31" y1="50" x2="27" y2="48" stroke="#b99a5b" stroke-width="1.4" stroke-linecap="round"/>
+    <line x1="33" y1="50" x2="37" y2="48" stroke="#b99a5b" stroke-width="1.4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Base Ground Line -->
+  <line x1="18" y1="61" x2="46" y2="61" stroke="#c4a769" stroke-width="1.8" stroke-linecap="round"/>
+</svg>

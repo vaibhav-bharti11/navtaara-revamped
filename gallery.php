@@ -42,93 +42,40 @@
                 </div>
             </div>
         </div>
-        <div class="page-gallery">
+        <div class="page-gallery" style="padding: 80px 0;">
             <div class="container">
-                <div class="row gallery-items page-gallery-box">
-                    <div class="col-lg-4 col-6">
-                        <div class="photo-gallery wow fadeInUp">
-                            <a href="images/gallery-1.jpg" data-cursor-text="View"
-                                ><figure class="image-anime"><img src="images/gallery/gallery-1.png" alt="" /></figure
-                            ></a>
+                <div class="row mb-5 text-center">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="section-title">
+                            <h3 class="wow fadeInUp" style="color: #b99a5b; letter-spacing: 0.15em; text-transform: uppercase; font-size: 14px; font-weight: 600;">Authentic Sanctuaries &amp; Moments</h3>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque" style="font-family: 'Marcellus', serif; font-size: 38px; color: #1e2119; margin-top: 10px;">Experience the Stillness of Navtaara</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s" style="color: #5c6253; font-size: 16px; line-height: 1.7; margin-top: 15px;">A visual journey through our natural mountain retreats, intentional spaces, organic living, and guided restorative practices across India.</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-6">
-                        <div class="photo-gallery wow fadeInUp" data-wow-delay="0.2s">
-                            <a href="images/gallery-2.jpg" data-cursor-text="View"
-                                ><figure class="image-anime"><img src="images/gallery/gallery-2.png" alt="" /></figure
-                            ></a>
+                </div>
+                <div class="row gallery-items page-gallery-box g-4">
+                    <?php
+                    $retreat_images = glob("images/gallery/navtaara-retreat-*.jpg");
+                    if (empty($retreat_images)) {
+                        $retreat_images = glob("images/gallery/*.{jpg,png,jpeg}", GLOB_BRACE);
+                    }
+                    sort($retreat_images);
+                    foreach ($retreat_images as $idx => $imgPath):
+                        $delay = ($idx % 6) * 0.12;
+                    ?>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="photo-gallery wow fadeInUp" data-wow-delay="<?php echo number_format($delay, 2); ?>s">
+                            <a href="<?php echo $imgPath; ?>" class="gallery-popup-item" data-cursor-text="View" title="Navtaara Retreat Space <?php echo $idx + 1; ?>">
+                                <figure class="image-anime gallery-card-figure">
+                                    <img src="<?php echo $imgPath; ?>" alt="Navtaara Retreat Experience - Moment <?php echo $idx + 1; ?>" loading="lazy" class="gallery-img-fluid" />
+                                    <div class="gallery-hover-overlay">
+                                        <div class="gallery-zoom-icon"><i class="fa-solid fa-expand"></i></div>
+                                    </div>
+                                </figure>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-6">
-                        <div class="photo-gallery wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="images/gallery-3.jpg" data-cursor-text="View"
-                                ><figure class="image-anime"><img src="images/gallery/gallery-3.png" alt="" /></figure
-                            ></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-6">
-                        <div class="photo-gallery wow fadeInUp" data-wow-delay="0.6s">
-                            <a href="images/gallery-4.jpg" data-cursor-text="View"
-                                ><figure class="image-anime"><img src="images/gallery/gallery-4.png" alt="" /></figure
-                            ></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-6">
-                        <div class="photo-gallery wow fadeInUp" data-wow-delay="0.8s">
-                            <a href="images/gallery-5.jpg" data-cursor-text="View"
-                                ><figure class="image-anime"><img src="images/gallery/gallery-5.png" alt="" /></figure
-                            ></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-6">
-                        <div class="photo-gallery wow fadeInUp" data-wow-delay="1s">
-                            <a href="images/gallery-6.jpg" data-cursor-text="View"
-                                ><figure class="image-anime"><img src="images/gallery/gallery-6.png" alt="" /></figure
-                            ></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-6">
-                        <div class="photo-gallery wow fadeInUp" data-wow-delay="1.2s">
-                            <a href="images/gallery-7.jpg" data-cursor-text="View"
-                                ><figure class="image-anime"><img src="images/gallery/gallery-7.png" alt="" /></figure
-                            ></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-6">
-                        <div class="photo-gallery wow fadeInUp" data-wow-delay="1.4s">
-                            <a href="images/gallery-8.jpg" data-cursor-text="View"
-                                ><figure class="image-anime"><img src="images/gallery/gallery-8.png" alt="" /></figure
-                            ></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-6">
-                        <div class="photo-gallery wow fadeInUp" data-wow-delay="1.6s">
-                            <a href="images/gallery-9.jpg" data-cursor-text="View"
-                                ><figure class="image-anime"><img src="images/gallery/gallery-9.png" alt="" /></figure
-                            ></a>
-                        </div>
-                    </div>
-					<div class="col-lg-4 col-6">
-                        <div class="photo-gallery wow fadeInUp" data-wow-delay="1.2s">
-                            <a href="images/gallery-7.jpg" data-cursor-text="View"
-                                ><figure class="image-anime"><img src="images/gallery/gallery-10.png" alt="" /></figure
-                            ></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-6">
-                        <div class="photo-gallery wow fadeInUp" data-wow-delay="1.4s">
-                            <a href="images/gallery-8.jpg" data-cursor-text="View"
-                                ><figure class="image-anime"><img src="images/gallery/gallery-11.png" alt="" /></figure
-                            ></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-6">
-                        <div class="photo-gallery wow fadeInUp" data-wow-delay="1.6s">
-                            <a href="images/gallery-9.jpg" data-cursor-text="View"
-                                ><figure class="image-anime"><img src="images/gallery/gallery-12.png" alt="" /></figure
-                            ></a>
-                        </div>
-                    </div>
+                    <?php endforeach; ?>
                 </div>
             </div>
         </div>

@@ -2,6 +2,7 @@
 	<div class="page-catagery-list wow fadeInUp">
 		<h3>Our Services</h3>
 		<ul>
+			<li><a href="upcoming-experiences">Upcoming Experiences (Antar Yatra)</a></li>
 			<li><a href="extended-stay-living-programs">Extended Stay Living Programs</a></li>
 			<li><a href="life-transition-sabbatical-experiences">Life Transition & Sabbatical Experiences</a></li>
 			<li><a href="nature-based-immersive-environments">Nature-Based Immersive Environments</a></li>

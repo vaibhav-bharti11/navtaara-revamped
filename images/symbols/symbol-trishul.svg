@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <radialGradient id="trishul-glow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#e8d5a7" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#c4a769" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#b99a5b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="32" cy="32" r="28" fill="url(#trishul-glow)"/>
+  
+  <!-- Central Spike & Curved Flame Prongs -->
+  <path d="M32,38 L32,12" stroke="#b99a5b" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M32,38 Q22,34 21,24 Q20,18 24,13" stroke="#b99a5b" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+  <path d="M32,38 Q42,34 43,24 Q44,18 40,13" stroke="#b99a5b" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+  <path d="M32,38 L32,46" stroke="#b99a5b" stroke-width="2.2" stroke-linecap="round"/>
+  
+  <!-- Crossbar Whisker Lines -->
+  <line x1="16" y1="42" x2="48" y2="42" stroke="#b99a5b" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="22" y1="45" x2="42" y2="45" stroke="#b99a5b" stroke-width="1.4" stroke-linecap="round"/>
+  
+  <!-- Bindu Dots -->
+  <circle cx="32" cy="7" r="2.2" fill="#c4a769"/>
+  <circle cx="12" cy="42" r="1.8" fill="#c4a769"/>
+  <circle cx="52" cy="42" r="1.8" fill="#c4a769"/>
+  <circle cx="32" cy="49" r="1.8" fill="#c4a769"/>
+  <circle cx="32" cy="53" r="1.4" fill="#c4a769"/>
+  <circle cx="32" cy="57" r="1.1" fill="#c4a769"/>
+</svg>

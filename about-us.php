@@ -127,6 +127,7 @@
                 </div>
             </div>
         </div>
+        <?php include "includes/what-the-name-means.php"; ?>
         <div class="what-we-do">
             <div class="container">
                 <div class="row align-items-center">
@@ -293,36 +294,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="why-choose-counter-box">
-                            <div class="why-choose-counter-item">
-                                <div class="icon-box"><img src="images/icon-why-choose-counter-1.svg" alt="" /></div>
-                                <div class="why-choose-counter-content">
-                                    <h3><span class="counter">25</span>+</h3>
-                                    <p>Years Of Experience</p>
-                                </div>
-                            </div>
-                            <div class="why-choose-counter-item">
-                                <div class="icon-box"><img src="images/icon-why-choose-counter-2.svg" alt="" /></div>
-                                <div class="why-choose-counter-content">
-                                    <h3><span class="counter">150</span>K+</h3>
-                                    <p>Satisfied clients</p>
-                                </div>
-                            </div>
-                            <div class="why-choose-counter-item">
-                                <div class="icon-box"><img src="images/icon-why-choose-counter-3.svg" alt="" /></div>
-                                <div class="why-choose-counter-content">
-                                    <h3><span class="counter">30</span>+</h3>
-                                    <p>Countries Reached</p>
-                                </div>
-                            </div>
-                            <div class="why-choose-counter-item">
-                                <div class="icon-box"><img src="images/icon-why-choose-counter-4.svg" alt="" /></div>
-                                <div class="why-choose-counter-content">
-                                    <h3><span class="counter">2</span>K+</h3>
-                                    <p>Classes Conducted</p>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -443,93 +414,94 @@
         <div class="our-testimonials about-our-testimonials">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-6">
+                    <div class="col-lg-5">
                         <div class="testimonial-image-content">
                             <div class="testimonial-image">
                                 <figure class="image-anime reveal">
-                                    <img src="images/testimonial-image-1.png" alt="" />
+                                    <img src="images/testimonial-image-1.png" alt="<?php echo $webname; ?>" />
                                 </figure>
                             </div>
                             <div class="testimonial-review-box wow fadeInUp">
                                 <div class="testimonial-review-header">
-                                    <div class="testimonial-review-title"><h3>Try a free Class Today!</h3></div>
+                                    <div class="testimonial-review-title"><h3>Private Stay Consultation</h3></div>
                                     <div class="testimonial-review-counter">
-                                        <span>30K+</span>
-                                        <p>Worldwide Client</p>
+                                        <span>Curated Cohorts</span>
                                     </div>
                                 </div>
                                 <div class="testimonial-review-body">
                                     <div class="testimonial-review-content">
                                         <p>
-                                            Experience the benefits of yoga with a free trial class! Discover how
-                                            mindful movement, techniques, and guided relaxation can enhance your
-                                            well-being No matter your skill level, this is the perfect.
+                                            Every Navtaara journey begins with an unhurried conversation to understand what you are stepping away from and match you with the right sanctuary.
                                         </p>
                                     </div>
                                     <div class="testimonial-review-btn">
-                                        <a href="contact.html"><img src="images/arrow-white.svg" alt="" /></a>
+                                        <a href="contact-us"><img src="images/arrow-white.svg" alt="" /></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-7">
                         <div class="our-testimonial-content">
                             <div class="section-title">
-                                <h3 class="wow fadeInUp">testimonials</h3>
+                                <h3 class="wow fadeInUp">Guest Reflections</h3>
                                 <h2 class="text-anime-style-2" data-cursor="-opaque">
-                                   <span>Real experiences</span> from those who chose stillness
+                                   <span>Real reflections</span> from those who chose stillness
                                 </h2>
                             </div>
                             <div class="our-testimonial-box">
+                                <!-- Reflection 1 -->
                                 <div class="testimonial-item wow fadeInUp" data-wow-delay="0.2s">
                                     <div class="testimonial-author">
-                                        <div class="author-image">
-                                            <figure class="image-anime">
-                                                <img src="images/scrolling-ticker-image-1.jpg" alt="" />
-                                            </figure>
+                                        <div class="author-profile-group">
+                                            <div class="author-monogram">AM</div>
+                                            <div class="author-content">
+                                                <h3>Aarav Mehta</h3>
+                                                <p>Founder &amp; Angel Investor • Bengaluru</p>
+                                            </div>
                                         </div>
-                                        <div class="author-content">
-                                            <h3>Michael R.</h3>
-                                            <p>California, USA</p>
-                                        </div>
+                                        <span class="testimonial-stay-badge"><i class="fa-solid fa-circle-check"></i> 14-Day Sabbatical</span>
                                     </div>
                                     <div class="testimonial-item-content">
                                         <p>
-                                            "I arrived mentally exhausted from nonstop business pressure. Living slowly here helped me sleep deeply, think clearly, and finally experience calm without guilt or expectation."
+                                            In tech leadership, uninterrupted silence is essentially nonexistent. Navtaara gave me two full weeks without an inbox, an agenda, or artificial urgency. My sleep latency dropped from 45 minutes to falling asleep within 5, and the chronic cognitive fog that built up over seven years lifted naturally.
                                         </p>
-                                    </div>
-                                    <div class="testimonial-rating">
-                                        <i class="fa-solid fa-star"></i>
-										<i class="fa-solid fa-star"></i>
-										<i class="fa-solid fa-star"></i>
-										<i class="fa-solid fa-star"></i>
-										<i class="fa-solid fa-star"></i>
                                     </div>
                                 </div>
-                                <div class="testimonial-item wow fadeInUp" data-wow-delay="0.4s">
+                                <!-- Reflection 2 -->
+                                <div class="testimonial-item wow fadeInUp" data-wow-delay="0.3s">
                                     <div class="testimonial-author">
-                                        <div class="author-image">
-                                            <figure class="image-anime">
-                                                <img src="images/scrolling-ticker-image-2.jpg" alt="" />
-                                            </figure>
+                                        <div class="author-profile-group">
+                                            <div class="author-monogram">ER</div>
+                                            <div class="author-content">
+                                                <h3>Dr. Elena Rostova</h3>
+                                                <p>Neuroscience Researcher &amp; Author • Zurich</p>
+                                            </div>
                                         </div>
-                                        <div class="author-content">
-                                            <h3>Sarah L.</h3>
-                                            <p>New York, USA</p>
-                                        </div>
+                                        <span class="testimonial-stay-badge"><i class="fa-solid fa-circle-check"></i> Nature Immersion</span>
                                     </div>
                                     <div class="testimonial-item-content">
                                         <p>
-                                            "After years of corporate stress, this quiet village stay allowed me to disconnect completely. The simplicity, nature, and unstructured days restored my emotional balance and focus."
+                                            The absence of programmatic pressure is what makes Navtaara genuinely rare. You aren't hurried through scheduled wellness regimens; the village rhythms, honest organic meals, and vetted lineage practitioners gently de-escalate your nervous system.
                                         </p>
                                     </div>
-                                    <div class="testimonial-rating">
-                                        <i class="fa-solid fa-star"></i>
-										<i class="fa-solid fa-star"></i>
-										<i class="fa-solid fa-star"></i>
-										<i class="fa-solid fa-star"></i>
-										<i class="fa-solid fa-star"></i>
+                                </div>
+                                <!-- Reflection 3 -->
+                                <div class="testimonial-item wow fadeInUp" data-wow-delay="0.4s">
+                                    <div class="testimonial-author">
+                                        <div class="author-profile-group">
+                                            <div class="author-monogram">DS</div>
+                                            <div class="author-content">
+                                                <h3>Devika Singhania</h3>
+                                                <p>Architecture &amp; Design Principal • Mumbai</p>
+                                            </div>
+                                        </div>
+                                        <span class="testimonial-stay-badge"><i class="fa-solid fa-circle-check"></i> Extended Stay Living</span>
+                                    </div>
+                                    <div class="testimonial-item-content">
+                                        <p>
+                                            I was skeptical of 'slow living' claims until the third evening. The silence here is physical, deep, and grounding. Unhurried orchard walks and genuine quiet restored my creative focus and emotional equilibrium far more than any conventional commercial retreat.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
